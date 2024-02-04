@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { User, UserManager } from 'oidc-client-ts';
-import {environment} from "../../environments/environment";
+import {OidcClientSettings, User, UserManager, UserManagerSettings} from 'oidc-client-ts';
 
 @Injectable({
   providedIn: 'root',
@@ -9,14 +8,14 @@ export class AuthService {
   userManager: UserManager;
 
   constructor() {
-    const settings = {
-      authority: environment.stsAuthority,
-      client_id: environment.clientId,
-      redirect_uri: `${environment.clientRoot}signin-callback`,
-      silent_redirect_uri: `${environment.clientRoot}silent-callback.html`,
-      post_logout_redirect_uri: `${environment.clientRoot}`,
+    const settings: UserManagerSettings = {
+      authority: 'http://example-spring-authorization-server.local:9000/',
+      client_id: 'example-angular-oauth2-authorization-code-pkce',
+      redirect_uri: 'http://127.0.0.1:4200/signin-callback',
+      silent_redirect_uri: 'http://127.0.0.1:4200/silent-callback.html',
+      post_logout_redirect_uri: 'http://127.0.0.1:4200/',
       response_type: 'code',
-      scope: environment.clientScope,
+      scope: 'openid',
     };
     this.userManager = new UserManager(settings);
   }

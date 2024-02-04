@@ -6,7 +6,6 @@ import {
 import { Injectable, inject } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
 import { AuthService } from './auth.service';
-import {environment} from "../../environments/environment";
 
 export type TestApiResponse = { type: string; value: string }[];
 
@@ -38,7 +37,7 @@ export class TestApiService {
     });
 
     return firstValueFrom(
-      this.httpClient.get<TestApiResponse>(`${environment.apiRoot}/test`, {
+      this.httpClient.get<TestApiResponse>(`http://localhost:8080/test`, {
         headers,
       })
     ).catch((result: HttpErrorResponse) => {
