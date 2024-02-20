@@ -27,7 +27,7 @@ import { TestApiService } from '../services/test-api.service';
       </ul>
     </div>
   `,
-  styles: '',
+  styleUrl: './home.component.css',
 })
 export class HomeComponent implements OnInit {
   readonly authService = inject(AuthService);
