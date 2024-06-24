@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^17.2.1
     version: 17.2.1(@angular/compiler-cli@17.1.2)(karma@6.4.3)(typescript@5.3.3)
   '@angular/cli':
-    specifier: ^18.0.2
-    version: 18.0.2
+    specifier: ^18.0.5
+    version: 18.0.5
   '@angular/compiler-cli':
     specifier: ^17.1.0
     version: 17.1.2(@angular/compiler@17.1.2)(typescript@5.3.3)
@@ -97,11 +97,11 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/architect@0.1800.2:
-    resolution: {integrity: sha512-PX7lCTAqWe9C40+fie+DAc8vhpGA+JgZKWWrMHUTV/iZx8RXx2X4xGQsqYu36p4i3MSfQdbn+0xLWGmjScPVOQ==}
+  /@angular-devkit/architect@0.1800.5:
+    resolution: {integrity: sha512-KliFJTqwAIyRvW10JnJLlpXK86yx683unTgwgvkg9V4gUc/7cNCmWJiOCmYh1+gATpFq+3d3o36EdTzb4QS03g==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 18.0.2
+      '@angular-devkit/core': 18.0.5
       rxjs: 7.8.1
     transitivePeerDependencies:
       - chokidar
@@ -268,8 +268,8 @@ packages:
       source-map: 0.7.4
     dev: true
 
-  /@angular-devkit/core@18.0.2:
-    resolution: {integrity: sha512-QXcEdfmODc0rKblBerk30yw70fypIkFm6gQBLJgsshpwc+TMA+fuMLcPQebOTzKLtD2tNUkk/7SrWPQIGqeXaA==}
+  /@angular-devkit/core@18.0.5:
+    resolution: {integrity: sha512-sGtrS0SqkcBvyuv0QkIfyadwPgDhMroz1r51lMh1hwzJaJ0LNuVMLviEeYIybeBnvAdp9YvYC8I1WgB/FUEFBw==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       chokidar: ^3.5.2
@@ -285,11 +285,11 @@ packages:
       source-map: 0.7.4
     dev: true
 
-  /@angular-devkit/schematics@18.0.2:
-    resolution: {integrity: sha512-G9yGcoB67sH0eRNWoiQWNn2KwiI7sDasVscYPGKf1yo7JRiXmzX/LpfKRPsZTl+Bs0FItnwDInsqgMisK89/6g==}
+  /@angular-devkit/schematics@18.0.5:
+    resolution: {integrity: sha512-hZwAq3hwuJzCuh7uqO/7T9IMERhYVxz+ganJlEykpyr58o0IjUM1Q4ZSH5UOYlGRPdBCZJbfiafZ0Sg5w5xBww==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 18.0.2
+      '@angular-devkit/core': 18.0.5
       jsonc-parser: 3.2.1
       magic-string: 0.30.10
       ora: 5.4.1
@@ -308,15 +308,15 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@angular/cli@18.0.2:
-    resolution: {integrity: sha512-shrxMD1bcWWh7WpBN3KTV+Lt8E62gURSUFhs6kdGLepMDif8LPAv45+hpt8SBU9VfQuL6AHa4cW8uDL9BKGlYA==}
+  /@angular/cli@18.0.5:
+    resolution: {integrity: sha512-w3NOdj6T7QhBmFleavc+AEhcAMyPkt7RsyWW2saufD6x55gzynGQZb9UBZwKDUAR6UtqchBX/HEBWCLNnjbiHg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     hasBin: true
     dependencies:
-      '@angular-devkit/architect': 0.1800.2
-      '@angular-devkit/core': 18.0.2
-      '@angular-devkit/schematics': 18.0.2
-      '@schematics/angular': 18.0.2
+      '@angular-devkit/architect': 0.1800.5
+      '@angular-devkit/core': 18.0.5
+      '@angular-devkit/schematics': 18.0.5
+      '@schematics/angular': 18.0.5
       '@yarnpkg/lockfile': 1.1.0
       ansi-colors: 4.1.3
       ini: 4.1.2
@@ -2180,13 +2180,6 @@ packages:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
 
-  /@ljharb/through@2.3.12:
-    resolution: {integrity: sha512-ajo/heTlG3QgC8EGP6APIejksVAYt4ayz4tqoP3MolFELzcH1x1fzwEYRJTPO0IELutZ5HQ0c26/GqAYy79u3g==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      call-bind: 1.0.5
-    dev: true
-
   /@ljharb/through@2.3.13:
     resolution: {integrity: sha512-/gKJun8NNiWGZJkGzI/Ragc53cOdcLNdzjLaIa+GEjguQs0ulsurx8WN0jijdK9yPqDvziX995sMRLyLt1uZMQ==}
     engines: {node: '>= 0.4'}
@@ -2431,12 +2424,12 @@ packages:
     dev: true
     optional: true
 
-  /@schematics/angular@18.0.2:
-    resolution: {integrity: sha512-qkJs1oxHtneJ6QxDKpxNyneXGDM9SKVj+Bgi8xUAU3FEzpsYmE/aW3MfwYHOZl0pDBO8c2raqLvlyl3dGP6/Gg==}
+  /@schematics/angular@18.0.5:
+    resolution: {integrity: sha512-dV50GIEGl6S5wE6xtAhmHWdLhsOlnNUpAx/v3BPR2AOr90zJvIM03TqAQTzAlnPatxK2WLelRgqVMbPfAVvLAg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 18.0.2
-      '@angular-devkit/schematics': 18.0.2
+      '@angular-devkit/core': 18.0.5
+      '@angular-devkit/schematics': 18.0.5
       jsonc-parser: 3.2.1
     transitivePeerDependencies:
       - chokidar
@@ -2852,6 +2845,17 @@ packages:
       ajv: 8.12.0
     dev: true
 
+  /ajv-formats@2.1.1(ajv@8.13.0):
+    resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
+    peerDependencies:
+      ajv: ^8.0.0
+    peerDependenciesMeta:
+      ajv:
+        optional: true
+    dependencies:
+      ajv: 8.13.0
+    dev: true
+
   /ajv-formats@3.0.1(ajv@8.13.0):
     resolution: {integrity: sha512-8iUql50EUR+uUcdRQ3HDqa6EVyo3docL8g5WJ3FNcWmu62IbkGUue/pEyLBW8VGKKucTPgqeks4fIU1DA4yowQ==}
     peerDependencies:
@@ -2871,12 +2875,12 @@ packages:
       ajv: 6.12.6
     dev: true
 
-  /ajv-keywords@5.1.0(ajv@8.12.0):
+  /ajv-keywords@5.1.0(ajv@8.13.0):
     resolution: {integrity: sha512-YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==}
     peerDependencies:
       ajv: ^8.8.2
     dependencies:
-      ajv: 8.12.0
+      ajv: 8.13.0
       fast-deep-equal: 3.1.3
     dev: true
 
@@ -3215,14 +3219,6 @@ packages:
       unique-filename: 3.0.0
     dev: true
 
-  /call-bind@1.0.5:
-    resolution: {integrity: sha512-C3nQxfFZxFRVoJoGKKI8y3MOEo129NQ+FgQ08iye+Mk4zNZZGdjfs06bVTr+DBSlA66Q2VEcMki/cUCP4SercQ==}
-    dependencies:
-      function-bind: 1.1.2
-      get-intrinsic: 1.2.3
-      set-function-length: 1.2.0
-    dev: true
-
   /call-bind@1.0.7:
     resolution: {integrity: sha512-GHTSNSYICQ7scH7sZ+M2rFopRoLh8t2bLSW6BbgrtLsahOIB5iyAVJf9GjWK3cYTDaMj4XdBpM1cA6pIS0Kv2w==}
     engines: {node: '>= 0.4'}
@@ -3557,7 +3553,7 @@ packages:
       postcss-modules-scope: 3.1.1(postcss@8.4.35)
       postcss-modules-values: 4.0.0(postcss@8.4.35)
       postcss-value-parser: 4.2.0
-      semver: 7.6.0
+      semver: 7.6.2
       webpack: 5.90.1(esbuild@0.20.0)
     dev: true
 
@@ -3625,15 +3621,6 @@ packages:
     resolution: {integrity: sha512-eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==}
     dependencies:
       clone: 1.0.4
-    dev: true
-
-  /define-data-property@1.1.1:
-    resolution: {integrity: sha512-E7uGkTzkk1d0ByLeSc6ZsFS79Axg+m1P/VsgYsxHgiuc3tFSj+MjMIwe90FC4lOAZzNBdY7kkO2P2wKdsQ1vgQ==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      get-intrinsic: 1.2.3
-      gopd: 1.0.1
-      has-property-descriptors: 1.0.1
     dev: true
 
   /define-data-property@1.1.4:
@@ -3832,11 +3819,6 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       get-intrinsic: 1.2.4
-    dev: true
-
-  /es-errors@1.0.0:
-    resolution: {integrity: sha512-yHV74THqMJUyFKkHyN7hyENcEZM3Dj2a2IrdClY+IT4BFQHkIVwlh8s6uZfjsFydMdNHv0F5mWgAA3ajFbsvVQ==}
-    engines: {node: '>= 0.4'}
     dev: true
 
   /es-errors@1.3.0:
@@ -4245,17 +4227,6 @@ packages:
     engines: {node: 6.* || 8.* || >= 10.*}
     dev: true
 
-  /get-intrinsic@1.2.3:
-    resolution: {integrity: sha512-JIcZczvcMVE7AUOP+X72bh8HqHBRxFdz5PDHYtNG/lE3yk9b3KZBJlwFcTyPYjg3L4RLLmZJzvjxhaZVapxFrQ==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      es-errors: 1.0.0
-      function-bind: 1.1.2
-      has-proto: 1.0.1
-      has-symbols: 1.0.3
-      hasown: 2.0.0
-    dev: true
-
   /get-intrinsic@1.2.4:
     resolution: {integrity: sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==}
     engines: {node: '>= 0.4'}
@@ -4356,12 +4327,6 @@ packages:
   /has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
-    dev: true
-
-  /has-property-descriptors@1.0.1:
-    resolution: {integrity: sha512-VsX8eaIewvas0xnvinAe9bw4WfIeODpGYikiWYLH+dma0Jw6KHYqWiWfhQlgOVK8D6PvjubK5Uc4P0iIhIcNVg==}
-    dependencies:
-      get-intrinsic: 1.2.3
     dev: true
 
   /has-property-descriptors@1.0.2:
@@ -4601,7 +4566,7 @@ packages:
     resolution: {integrity: sha512-4ByIMt677Iz5AvjyKrDpzaepIyMewNvDcvwpVVRZNmy9dLakVoVgdCHZXbK1SlVJra1db0JZ6XkJyHsanpdrdQ==}
     engines: {node: '>=18'}
     dependencies:
-      '@ljharb/through': 2.3.12
+      '@ljharb/through': 2.3.13
       ansi-escapes: 4.3.2
       chalk: 5.3.0
       cli-cursor: 3.1.0
@@ -5167,7 +5132,7 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.6.0
+      semver: 7.6.2
     dev: true
 
   /make-fetch-happen@13.0.0:
@@ -5881,7 +5846,7 @@ packages:
       cosmiconfig: 9.0.0(typescript@5.3.3)
       jiti: 1.21.0
       postcss: 8.4.35
-      semver: 7.6.0
+      semver: 7.6.2
       webpack: 5.90.1(esbuild@0.20.0)
     transitivePeerDependencies:
       - typescript
@@ -6312,9 +6277,9 @@ packages:
     engines: {node: '>= 12.13.0'}
     dependencies:
       '@types/json-schema': 7.0.15
-      ajv: 8.12.0
-      ajv-formats: 2.1.1(ajv@8.12.0)
-      ajv-keywords: 5.1.0(ajv@8.12.0)
+      ajv: 8.13.0
+      ajv-formats: 2.1.1(ajv@8.13.0)
+      ajv-keywords: 5.1.0(ajv@8.13.0)
     dev: true
 
   /select-hose@2.0.0:
@@ -6417,17 +6382,6 @@ packages:
       - supports-color
     dev: true
 
-  /set-function-length@1.2.0:
-    resolution: {integrity: sha512-4DBHDoyHlM1IRPGYcoxexgh67y4ueR53FKV1yyxwFMY7aCqcN/38M1+SwZ/qJQ8iLv7+ck385ot4CcisOAPT9w==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      define-data-property: 1.1.1
-      function-bind: 1.1.2
-      get-intrinsic: 1.2.3
-      gopd: 1.0.1
-      has-property-descriptors: 1.0.1
-    dev: true
-
   /set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
     engines: {node: '>= 0.4'}
@@ -6474,8 +6428,8 @@ packages:
   /side-channel@1.0.4:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
     dependencies:
-      call-bind: 1.0.5
-      get-intrinsic: 1.2.3
+      call-bind: 1.0.7
+      get-intrinsic: 1.2.4
       object-inspect: 1.13.1
     dev: true
 
